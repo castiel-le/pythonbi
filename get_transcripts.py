@@ -6,7 +6,7 @@ from curl_cffi import requests
 
 # --- CONFIGURATION ---
 TICKERS = ["AAPL", "MSFT", "NVDA", "TSLA", "BA"]  # Add your tickers here
-START_YEAR = 2023
+START_YEAR = 2019
 END_YEAR = 2025  # Downloads up to and including this year
 QUARTERS = [1, 2, 3, 4]
 
