@@ -1,38 +1,72 @@
-Earnings Call Transcript Downloader
-This tool automates the process of mass-downloading earnings call transcripts for multiple companies over a specified year range. It retrieves transcripts as PDFs and converts them into clean text files for data analysis.
+# How to Run This Python Project
 
-Setup Instructions
-1. Install Python
-Download and install the latest Python 64-bit Windows Installer from the official website:
-https://www.python.org/downloads/
+This guide shows you how to set up and run this project step by step.
 
-Important: During installation, ensure you check the box that says "Add Python to PATH" to use Python from the command line.
+---
 
-2. Upgrade Pip
-Open your Command Prompt (cmd) or PowerShell and run the following command to ensure you have the latest version of the package manager:
+## What You Need
+- Windows computer  
+- Internet connection  
+- Python  
+- Visual Studio Code (VSCode)
 
+---
+
+## Step 1: Install Python and VSCode
+
+1. Download and install **Python (latest 64-bit Windows version)** from:  
+   https://www.python.org/downloads/
+
+   ⚠️ During installation, make sure to tick **“Add Python to PATH”**.
+
+2. Download and install **Visual Studio Code (VSCode)** from:  
+   https://code.visualstudio.com/
+
+---
+
+## Step 2: Open the Project Folder in VSCode
+
+1. Open **VSCode**
+2. Click **File → Open Folder**
+3. Select the project folder
+4. Click **Open**
+
+---
+
+## Step 3: Upgrade pip (in VSCode Terminal)
+
+1. In VSCode, open the terminal:
+   - Click **Terminal → New Terminal**
+
+2. Run this command:
+```
 python -m pip install --upgrade pip
+```
+---
 
-3. Install Dependencies
-Navigate to your project folder in the terminal and run the following command to install the required libraries:
+## Step 4: Install required libraries
 
+In the same terminal, run:
+```
 pip install -r requirements.txt
+```
+(This installs all the libraries the program needs.)
 
-Configuration
-Before running the script, you must provide an active session cookie to access full transcripts:
+---
 
-1. Log in to discountingcashflows.com in your browser.
+## Step 5: Run the program
 
-2. Press F12 (or Right-Click > Inspect) to open Developer Tools.
+Run the Python file using:
+```
+python filename.py
+```
+Replace `filename.py` with the actual file name.
 
-3. Navigate to the Application tab (Chrome/Edge) or Storage tab (Firefox).
+Example:
+```
+python main.py
+```
+---
 
-4. Select Cookies from the left sidebar.
-
-5. Find the sessionid value, copy it, and paste it into the COOKIES dictionary within your Python script.
-
-Execution
-To start the download and conversion process, run the following command in your terminal:
-
-python your_filename.py
-(Replace your_filename.py with the actual name of your script file.)
+## Done 🎉
+If there are no error messages, the program is running correctly.
