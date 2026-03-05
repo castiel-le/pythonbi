@@ -11,7 +11,7 @@ END_YEAR = 2025  # Downloads up to and including this year
 QUARTERS = [1, 2, 3, 4]
 
 # Replace with your actual sessionid from browser DevTools
-COOKIES = {"sessionid": "znrpopsjqpgun73fpojhatd3iyb78geq"} 
+COOKIES = {"sessionid": "Điền API của mình vào đây"} 
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
